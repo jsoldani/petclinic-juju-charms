@@ -1,0 +1,7 @@
+name: petclinic
+summary: petclinic
+maintainer: petclinic
+description: petclinic
+series: [trusty]
+tags: [petclinic]
+
