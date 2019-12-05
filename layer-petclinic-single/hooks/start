@@ -1,4 +1,4 @@
 #!/bin/bash
-/bin/bash mysql_dbms.sh
+/bin/bash mysql_dbms/start.sh
 /bin/bash tomcat/start.sh
 /bin/bash petclinic/start.sh

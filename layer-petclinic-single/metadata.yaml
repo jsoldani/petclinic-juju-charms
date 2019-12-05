@@ -2,6 +2,6 @@ name: petclinic
 summary: petclinic
 maintainer: petclinic
 description: petclinic
-series: [trusty]
+series: [bionic]
 tags: [petclinic]
 
