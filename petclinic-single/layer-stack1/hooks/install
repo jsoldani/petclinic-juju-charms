@@ -1,4 +1,11 @@
 #!/bin/bash
+
 /bin/bash mysql_dbms/create.sh
 /bin/bash tomcat/create.sh
 
+/bin/bash mysql_database/configure.sh
+/bin/bash petclinic/configure.sh
+
+/bin/bash mysql_dbms/start.sh
+/bin/bash tomcat/start.sh
+/bin/bash petclinic/start.sh

@@ -21,7 +21,7 @@ Type=forking
 User=tomcat
 Group=tomcat
 
-Environment="JAVA_HOME=/usr/bin/java"
+Environment="JAVA_HOME=`dirname $(dirname $(readlink -f $(which java)))`"
 Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom -Djava.awt.headless=true"
 
 Environment="CATALINA_BASE=/opt/tomcat/latest"
@@ -38,7 +38,6 @@ EOM
     systemctl daemon-reload
     systemctl enable tomcat
     systemctl start tomcat
-    systemctl status tomcat
 else
     echo "INFO: Starting Tomcat in foreground"
     export CATALINA_BASE="/opt/tomcat/latest"

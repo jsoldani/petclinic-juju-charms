@@ -1,3 +1,2 @@
 #!/bin/bash
-/bin/bash mysql_database/configure.sh
-/bin/bash petclinic/configure.sh
+
