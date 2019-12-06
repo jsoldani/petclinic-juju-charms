@@ -1,0 +1,7 @@
+applications:
+  stack1:
+    charm: "/home/jacopo/charms/builds/stack1/"
+    num_units: 1
+
+relations: []
+ 

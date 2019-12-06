@@ -1,4 +1,4 @@
 #!/bin/bash
-/bin/bash tomcat/create.sh
 /bin/bash mysql_dbms/create.sh
+/bin/bash tomcat/create.sh
 

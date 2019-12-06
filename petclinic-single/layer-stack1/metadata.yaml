@@ -1,0 +1,15 @@
+name: stack1
+summary: xxx
+description: stack1
+maintainer: xxx <xxx@xxx.xxx>
+series: [bionic]
+provides:
+  pet_clinic: 
+     interface: web_application
+  pet_clinic_tomcat:
+     interface: tomcat
+  db:
+     interface: mysql_database
+  dbms:
+     interface: mysql_dbms
+
