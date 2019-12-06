@@ -1,5 +1,11 @@
 #!/bin/bash
 
+export DBMS_ROOT_PASSWORD=petclinic
+export DB_SCHEMA_NAME=petclinic
+export DB_USER=pc
+export DB_PASSWORD=petclinic
+export DB_HOSTNAME=localhost
+
 /bin/bash mysql_dbms/create.sh
 /bin/bash tomcat/create.sh
 

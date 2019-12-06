@@ -2,7 +2,7 @@ name: stack1
 summary: xxx
 description: stack1
 maintainer: xxx <xxx@xxx.xxx>
-series: [bionic]
+series: [xenial]
 provides:
   pet_clinic: 
      interface: web_application
